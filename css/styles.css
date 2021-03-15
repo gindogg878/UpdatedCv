@@ -1,0 +1,141 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+  /*dynamic size is % or em. 1em =16px = 100%*/
+  /*rem ignores the root font size and sets it to whatever rem is set*/
+
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width:5%;
+  margin: 100px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.selfiepng{
+  width: 25%;
+
+}
+
+.webdevpic{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.javascriptimage{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+  /* can use clear to move things below an element using clear: left or
+  right*/
+}
+
+.top {
+  background-color: #e8ffff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px;
+  text-align:left;
+}
+
+.profile{
+  width: 50%;
+  margin: 100px auto 100px;
+}
+
+.contact-me{
+  width: 50%;
+  margin: 100px auto 100px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 25px;
+}
+
+.bottom-container a{
+  margin: auto 50px auto 50px;
+}
+
+.bottom-container p{
+  color: #EAF6F6;
+  margin: 50px auto;
+  font-size: 0.75em;
+}
+
+.footer-link{
+  color:#11999E;
+  margin: 50px auto 50px auto;
+}
+
+.btn {
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 8px;
+color: #FFFFFF;
+font-family: 'Merriweather', sans-serif;
+font-size: 20px;
+font-weight: 100;
+padding: 10px 20px;
+background-color: #66BFBF;
+margin-top: 40px;
+border: solid #66BFBF 1px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+}
